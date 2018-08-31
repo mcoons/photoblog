@@ -45,6 +45,12 @@ app.get("/blogs/new", function(req, res) {
   res.render("new");
 });
 
+// About Route
+
+app.get("/blogs/about", function(req, res) {
+  res.render("about");
+});
+
 // Create Route
 
 app.post("/blogs", function(req, res) {

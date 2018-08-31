@@ -15,15 +15,15 @@
                     <p><%- blog.body %></p> 
 
             </div>
-            <a class="ui basic button shadowed" href="/blogs/<%=blog._id %>/edit">EDIT</a>
+            <a class="ui floated basic greenbutton shadowed" href="/blogs/<%=blog._id %>/edit">Edit</a>
             <form id="delete" method="POST" action="/blogs/<%=blog._id %>?_method=DELETE">
-                <button class="ui basic button shadowed">
-                    DELETE
+                <button class="redbutton shadowed">
+                    Delete
                 </button>
 
             </form>
         </div>
     </div>
 </div>
-
+<br><br><br>
 <% include ./partials/footer %>

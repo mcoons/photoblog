@@ -37,9 +37,38 @@ i.icon{
 }
 
 .shadowed{
-    box-shadow: 3px 3px 6px black !important;
+    box-shadow: 3px 3px 10px gray !important;
 }
 
 .content {
     margin-top: 5px !important;
+}
+
+.header{
+    text-shadow: 1px 1px 3px gray;
+}
+
+.greenbutton {
+    background-color: lightgreen !important;
+    color: black !important;
+    padding: 8px 15px;
+    border-radius: 5px;
+    width: 150px !important;
+}
+
+.greenbutton:hover{
+    background-color: rgb(72, 228, 72) !important;
+}
+
+.redbutton {
+    float: right;
+    background-color: lightcoral !important;
+    color: black !important;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: -6px;
+}
+
+.redbutton:hover{
+    background-color: rgb(221, 65, 65) !important;   
 }
