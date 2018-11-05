@@ -1,7 +1,7 @@
 {
-  "name": "BlogPracticeWithRestFulRoutes",
+  "name": "PhotoBlog",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple RESTful blog app connected to a mongo database",
   "main": "index.js",
   "scripts": {
     "start":"node app.js"
@@ -16,7 +16,6 @@
     "express": "^4.16.3",
     "express-sanitizer": "^1.0.4",
     "method-override": "^3.0.0",
-    "mongoose": "^5.2.3",
-    "nodemon": "^1.18.2"
+    "mongoose": "^5.2.3"
   }
 }
